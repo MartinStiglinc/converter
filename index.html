@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-en">
+    <head>
+        <meta name="description" content="Scrimba soloproject unit converter, Martin Štiglinc." />
+        <meta name="keywords" content="soloproject, frontend, javascript, Martin Štiglinc, Martin Stiglinc" />
+        <meta name="author" content="Martin Štiglinc" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styleConvert.css">
+    </head>
+    <body>
+
+
+        <div id="container">
+
+        <header>
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input type="text" id="input-el">
+            <button id="convert-btn">Convert</button>
+        </header>
+
+        <section>
+            <div class="boxes">
+                <h3>Lenght (Meters/Feets)</h3>
+                <p id="lenght-el"></p>
+            </div>
+            <div class="boxes">
+                <h3>Volume (Liters/Gallons</h3>
+                <p id="volume-el"></p>
+            </div>
+            <div class="boxes">
+                <h3>Mass (Kilograms/Pounds)</h3>
+                <p id="mass-el"></p> 
+            </div>
+
+        </section>
+
+        <footer>
+<p><a href="https://scrimba.com/learn/frontend" target="_blank">Scrimba</a> javascript SOLO Project created by Martin Štiglinc</p>
+        </footer>
+
+        </div>
+
+
+        <script src="convert.js"></script>
+    </body>
+</html>
